@@ -1,0 +1,50 @@
+{
+  "tracking_names": [
+    "car",
+    "pedestrian",
+    "rider",
+    "large_vehicle"
+  ],
+  "pretty_tracking_names": {
+    "car": "Car",
+    "pedestrian": "Pedestrian",
+    "rider": "Rider",
+    "large_vehicle": "Large_vehicle"
+  },
+  "tracking_colors": {
+    "car": "C0",
+    "pedestrian": "C1",
+    "rider": "C2",
+    "large_vehicle": "C3"
+  },
+  "class_range": {
+    "car":[60,40],
+    "pedestrian":[60,40],
+    "rider":[60,40],
+    "large_vehicle":[60,40]
+  },
+  "dist_fcn": "center_distance",
+  "dist_th_tp": 3.0,
+  "min_recall": 0.1,
+  "max_boxes_per_sample": 500,
+  "metric_worst": {
+    "amota": 0.0,
+    "amotp": 2.0,
+    "recall": 0.0,
+    "motar": 0.0,
+    "mota": 0.0,
+    "motp": 2.0,
+    "mt": 0.0,
+    "ml": -1.0,
+    "faf": 500,
+    "gt": -1,
+    "tp": 0.0,
+    "fp": -1.0,
+    "fn": -1.0,
+    "ids": -1.0,
+    "frag": -1.0,
+    "tid": 20,
+    "lgd": 20
+  },
+  "num_thresholds": 40
+}
