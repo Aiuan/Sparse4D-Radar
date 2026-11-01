@@ -1,11 +1,11 @@
 <div align="center">   
-  
+
 # Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion
 </div>
 
 > [!NOTE]
 > 
-> **The complete code will be released after the paper is accepted. Please stay tuned.**
+> **Official implementation of [[2607.04098\] Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion](https://arxiv.org/abs/2607.04098)**
 
 ## Overall Framework
 <center>
@@ -105,7 +105,21 @@ cd ${project_path}
 python ./tools/test.py ${config} ${checkpoint} --eval bbox
 ```
 
+## Citation
+
+If you find this work useful for your research, please consider citing our paper:
+
+```bibtex
+@article{ai2026sparse4dradar,
+  title={Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion},
+  author={Ai, Fuyuan and others},
+  journal={arXiv preprint arXiv:2607.04098},
+  year={2026}
+}
+```
+
 ## Acknowledgement
+
 - [mmdet3d](https://github.com/open-mmlab/mmdetection3d)
 - [Sparse4D](https://github.com/HorizonRobotics/Sparse4D)
 - [OmniHD-Scenes](https://github.com/TJRadarLab/OmniHD-Scenes)
